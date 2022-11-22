@@ -1,0 +1,14 @@
+diff --git package.json package.json
+index 4b79fa6..eff9a24 100644
+--- package.json
++++ package.json
+@@ -2,6 +2,9 @@
+   "name": "next-test-app",
+   "version": "0.1.0",
+   "private": true,
++  "browserslist": [
++    "defaults, supports es5"
++  ],
+   "scripts": {
+     "dev": "next dev",
+     "build": "next build",
